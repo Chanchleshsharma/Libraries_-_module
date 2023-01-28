@@ -1,0 +1,6 @@
+# file=open("e:/msg_2.txt ","w")
+# file.write(str(10))
+# file.write("Apple mango")
+# file.close()
+file=open("e:/msg_2.txt ","a")
+file.write("chintuuuu")
