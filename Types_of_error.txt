@@ -1,0 +1,15 @@
+Types of error.
+1) Syntax Error 
+2) Exception error
+
+COMMONLY USED ERR0R
+>>>>>>>>>>>>>>>>>>>>>>>>
+*Zero division 
+IndexError
+keyError
+ValueError
+Filenotfound Error
+etc.
+
+*
+

@@ -10,3 +10,4 @@ file=open("e:/sas.txt","w")
 for mob in match:
     file.write(mob)
 file.close
+# print(s)

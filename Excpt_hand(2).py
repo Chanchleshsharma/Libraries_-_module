@@ -1,10 +1,9 @@
 print("hey")
-try :
-    age = int(input("Enter your age:"))
-    if(age<0):
-        except ValueError("-ve age found")
+age = int(input("Enter your age:"))
+if(age<0):
+    raise ValueError("-ve age found")
 
-    age=age+5
+age=age+5
 print("Age after five Years :",age)
 
 

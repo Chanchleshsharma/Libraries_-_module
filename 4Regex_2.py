@@ -23,9 +23,9 @@ match9=re.findall("\D",number)  # \D means except digits (lost digits)
 print(match9)
 m1=re.findall("\s",number)  #\s shows space
 print(m1)
-m2=re.findall("\S",number)
-m3=re.findall("\w",number)
-m4=re.findall("\W",number)
+m2=re.findall("\S",number) # its a except of \s
+m3=re.findall("\w",number) #word character
+m4=re.findall("\W",number) #except of word char
 print(m2)
 print(m3)
 print(m4)
