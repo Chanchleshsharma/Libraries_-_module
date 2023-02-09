@@ -16,5 +16,5 @@ class bank:
 
 obj=acc()
 obj.deposit()
-b=acc()
-print(b)
+# b=acc()
+# print(b)
