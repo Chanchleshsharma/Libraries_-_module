@@ -10,19 +10,19 @@
 # method Overloading
 
 
-class Over:
+class Over1:
     def M1(self):
         print("this is M1")
 
 
 
-        def M2(self):
-            print("thisis me")
+    def M2(self):
+        print("this is me2")
 
 
-class Over2(Over):
-    def M3(self):
-        print("this is m3")
+class Over2(Over1):
+    def M1(self):
+        print("this is m1")
 
 
         super().M1 ()
@@ -31,4 +31,28 @@ class Over2(Over):
 ob=Over2()
 ob.M1()
 ob.M2()
-ob.M3()
+
+
+
+class poly:
+    def Father (self):
+        print("this is Father method")
+
+    def Mother(self):
+        print("this is Mother method")
+
+class morphism(poly):
+    def child(self):
+        print("this is Child")
+        
+    def Father(self):
+        print("this is Fatherr")
+
+
+        super().Father()
+
+
+object=morphism()
+object.child()
+object.Mother()
+object.Father()

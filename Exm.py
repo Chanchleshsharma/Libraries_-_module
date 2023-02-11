@@ -61,3 +61,46 @@
 # for i in lst :
 #     print(i)
 
+
+
+
+######DECORATOR #################
+
+#### @staticethod
+class myschool:
+    def m1():
+        print("this is m1")
+    @ staticmethod
+    def m2():
+        print("this is m2")
+
+
+    def m3():
+        print("this is m3")
+
+
+
+
+myschool.m1()
+myschool.m2()
+myschool.m3()
+
+########## @classmethod
+
+class myschool:
+    def m1():
+        print("this is m1")
+    @ classmethod
+    def m2(cls):
+        print("this is m2")
+
+
+    def m3():
+        print("this is m3")
+
+
+
+
+myschool.m1()
+myschool.m2()
+myschool.m3()
